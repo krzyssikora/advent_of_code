@@ -42,20 +42,38 @@ def find_low_points(my_map):
     return return_list
 
 
-def basin_size():
-    pass
+def find_basin(my_map, row, column, my_basin):
+    def merge_basins(basin_1, basin_2):
+        basin = basin_1.copy()
+        for point in basin_2:
+            if point in basin:
+                continue
+            else:
+                basin.append(point)
+        return basin
+
+    my_basin.append([row, column])
+    rows = len(my_map)
+    columns = len(my_map[0])
+    for shift in {-1, 1}:
+        if row + shift in range(0, rows):
+            if [row + shift, column] not in my_basin and my_map[row + shift][column] < 9:
+                my_basin = merge_basins(my_basin, find_basin(my_map, row + shift, column, my_basin))
+        if column + shift in range(0, columns):
+            if [row, column + shift] not in my_basin and my_map[row][column + shift] < 9:
+                my_basin = merge_basins(my_basin, find_basin(my_map, row, column + shift, my_basin))
+    return my_basin
 
 
 def main():
     my_file = "09_input.txt"
     height_map = change_data_into_list(my_file)
-    total_risk_level = 0
-    rows = len(height_map)
-    columns = len(height_map[0])
-    for row in range(rows):
-        for column in range(columns):
-            total_risk_level += risk_level(height_map, row, column)
-    print(total_risk_level)
+    low_points = find_low_points(height_map)
+    basins = list()
+    for point in low_points:
+        basins.append(len(find_basin(height_map, point[0], point[1], [])))
+    basins.sort(reverse=True)
+    print(basins[0] * basins[1] * basins[2])
 
 
 if __name__ == "__main__":
