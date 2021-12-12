@@ -1,3 +1,6 @@
+import sys
+
+
 def make_data_into_list(my_file):
     with open(my_file) as f:
         lines = f.readlines()
@@ -41,15 +44,24 @@ def make_paths(connections, small_caves, my_path=None, first="start", last="end"
     return my_path
 
 
-def main():
+def main(my_file):
     global my_paths
-    my_file = "12_input.txt"
     connections = make_connections_dictionary(make_data_into_list(my_file))
+    # remove options of visiting 'start' and 'end' more than once
+    connections.pop("end")
+    for value in connections.values():
+        if "start" in value:
+            value.remove("start")
+
     small_caves = [elt for elt in connections.keys() if elt.lower() == elt]
     make_paths(connections, small_caves)
     print(len(my_paths))
 
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        input_file = sys.argv[1]
+    else:
+        input_file = "12_inp3.txt"
     my_paths = []
-    main()
+    main(input_file)
