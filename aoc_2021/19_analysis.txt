@@ -1,0 +1,45 @@
+1 to 0:      [ 68, -1246, -43]		positive:   1
+3 to 1:      [160, -1134, -23]		positive: all
+4 to 1:      [ 88,   113, -1104]	positive:   0
+
+3 to 0?       -92, -2380,  -20
+through 1     1-3    1+3   1-3
+
+4 to 0?       -20, -1133, 1061
+through 1     1-4    1+4   1-4
+
+
+--- scanner 0 ---
+0,2,0		A
+4,1,0		B
+3,3,0		C
+
+--- scanner 1 ---	+[5, 2, 0] (0, 1, 2) 3
+-1,-1,0		B
+-5,0,0		A
+-2,1,0		C
+
+--- scanner 2 ---	+[5, 2, 0] (1, 0, 2) 1
+-1,1,0		B
+0,5,0		A
+1,2,0		C
+
+
+ 0,  5,  0		A
+-1,  1,  0		B
+ 1,  2,  0		C
+
+firstly, change signs on axes:
+ 0, -5,  0		A
+-1, -1,  0		B
+ 1, -2,  0		C
+
+secondly adjust axes numbers:
+-5,  0,  0		A
+-1, -1,  0		B
+-2,  1,  0		C
+
+thirdly, apply the shift
+ 0,  2,  0		A
+ 4,  1,  0		B
+ 3,  3,  0		C
