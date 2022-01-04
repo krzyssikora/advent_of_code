@@ -1,0 +1,39 @@
+#############
+#...........#
+###B#C#B#D###
+  #A#D#C#A#
+  #########
+
+burrow 0:
+A: 0		x1    =    0
+B: 1+1+2=4	x10   =   40
+burrow 1:
+D: 2+1+4=7	x1000 = 7000
+C: 1+1+2=4	x100  =  400
+burrow 2:
+C: 0		x100  =    0
+B: 1+1+2=4	x10   =   40	1 more down	(  10)
+burrow 3:
+A: 2+1+6=9	x1    =    9	1 aside twice	(   2)
+D: 1+1+2=4	x1000 = 4000	1 more down	(1000)
+total		       11489
+
+12521 - 11489 = 1032
+
+minimum horizontal move:
+A: 0
+B: +1
+
+D: +2
+C: +1
+
+C: 0
+B: -1
+
+A: -3
+D: 0
+
+0 +1    +2 +1     0 -1    -3  0
+A  B     D  C     C  B     A  D
+     01       12       23
+01 - no sign difference
