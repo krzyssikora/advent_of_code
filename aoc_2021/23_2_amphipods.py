@@ -114,6 +114,38 @@ def neighbours(state):
     return neighbour_list
 
 
+def dijkstra_0(start, end):
+    predecessors = {start: None}
+    distances = dict()
+    current_state = start
+    distances[start] = 0
+    to_visit = list()
+    visited = set()
+    # current_neighbours = list()
+    while True:
+        print(current_state, len(to_visit), len(visited))
+        visited.add(current_state)
+        if current_state in to_visit:
+            to_visit.remove(current_state)
+        if current_state == end:
+            break
+        current_neighbours = neighbours(current_state)
+        current_neighbours.sort(key=lambda x: x[1])
+        for neighbour in current_neighbours:
+            if neighbour[0] not in visited and neighbour[0] not in to_visit:
+                to_visit.append(neighbour[0])
+            if neighbour[0] not in distances:
+                distances[neighbour[0]] = distances[current_state] + neighbour[1]
+                predecessors[neighbour[0]] = current_state
+            elif distances[neighbour[0]] > distances[current_state] + neighbour[1]:
+                distances[neighbour[0]] = distances[current_state] + neighbour[1]
+                predecessors[neighbour[0]] = current_state
+        if len(to_visit) == 0:
+            break
+        current_state = to_visit.pop(0)
+    return predecessors, distances
+
+
 def dijkstra(start, end):
     predecessors = {start: None}
     distances = {start: 0}  # {state: cost from state to start}
@@ -159,6 +191,9 @@ def main(my_file):
     burrow = get_data_from_file(my_file)
     room_length = (len(burrow) - 7) // 4
     final = "......." + "".join([letter * room_length for letter in 'ABCD'])
+    """predecessors, distances = dijkstra_0(burrow, final)
+    print(distances.get(final))
+    quit()"""
     path, cost = dijkstra(burrow, final)
     """path.reverse()
     for step in path:
