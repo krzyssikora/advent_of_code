@@ -1,5 +1,6 @@
 import itertools
 import sys
+import datetime
 
 
 def get_data_string(input_data):
@@ -134,18 +135,29 @@ def neighbours(state):
                         items_to_move.remove(pair)
         # Given on a certain floor: AG, AM, BG, BM,
         # if both AM and BM are to move up, it is enough to check AM.
-        if current_floor_number < new_floor_number:
+        # TODO: if both (AM, AG) and (BM, BG) are to move up, it is enough to check AM.
+        if current_floor_number != new_floor_number:
             # Let us firstly find pairs >> XG, XM << on the floor
             tools = ["G", "M"]
             microchips_to_consider = set()
+            pairs_to_consider = set()
             for item in current_floor_items:
-                if item[0] + tools[1 - tools.index(item[1])] in current_floor_items \
-                        and item[0] + "M" in single_items_to_move:
-                    microchips_to_consider.add(item[0])
+                if item[0] + tools[1 - tools.index(item[1])] in current_floor_items:
+                    if item[0] + "M" in single_items_to_move:
+                        microchips_to_consider.add(item[0])
+                    if (item[0] + "G", item[0] + "M") in items_to_move:
+                        pairs_to_consider.add((item[0] + "G", item[0] + "M"))
+                    if (item[0] + "M", item[0] + "G") in items_to_move:
+                        pairs_to_consider.add((item[0] + "M", item[0] + "G"))
             microchips_to_consider = sorted(list(microchips_to_consider))
+            pairs_to_consider = sorted(list(pairs_to_consider))
             # remove redundant microchips from single_items_to_move
             for microchip in microchips_to_consider[1:]:
                 single_items_to_move.remove(microchip + "M")
+            # remove redundant pairs from items_to_move
+            for pair in pairs_to_consider[1:]:
+                items_to_move.remove(pair)
+
         # add to neighbours the states from moving pairs of items
         for item_1, item_2 in items_to_move:
             state_1 = move_item_from_floor_to_floor(state, item_1, current_floor_number, new_floor_number)
@@ -206,14 +218,14 @@ def dijkstra(initial_state, final_state):
     costs = dict()
     for state in equivalent_states(initial_state, types_list):
         costs[state] = 0
-    queue = [initial_state]
+    queue = [(initial_state, 0)]
     tmp_count = 0
     while True:
         if abs(len(queue) - tmp_count) > 10:
             tmp_count = len(queue)
             print(len(costs), tmp_count)
         if len(queue):
-            current_state = queue.pop()
+            current_state = queue.pop()[0]
         else:
             break
         current_neighbours = neighbours(current_state)
@@ -222,12 +234,21 @@ def dijkstra(initial_state, final_state):
                 new_cost = costs[current_state] + 1
                 for state in equivalent_states(neighbour, types_list):
                     costs[state] = new_cost
-                queue.append(neighbour)
+                queue.append((neighbour, costs[neighbour]))
                 previous[neighbour] = current_state
-#        if current_state == final_state:
-#            break
+        queue.sort(key=lambda x: x[1])
     final_path = path_between(previous, final_state, initial_state)
     return costs[final_state], final_path
+
+
+def just_counting(input_data):
+    # not my idea: it does not work for the initial example!.
+    cost = 0
+    moved_up = 0
+    for floor in range(1, 4):
+        moved_up += len(input_data[floor])
+        cost += moved_up * 2 - 3
+    return cost
 
 
 def main():
@@ -254,6 +275,9 @@ def main():
         4: []
     }
     inputs = [input_data_0, input_data_1, input_data_2, input_data_3]
+    """for input_data in inputs:
+        print(just_counting(input_data))
+    quit()"""
     input_data = inputs[data_num]
     current_state, expected_state = get_data_string(input_data)
     """for state in equivalent_states(current_state, types(current_state)):
@@ -262,11 +286,42 @@ def main():
     """for neighbour in neighbours(current_state):
         display_state(neighbour)
     quit()"""
+    time_0 = datetime.datetime.now()
     result, final_path = dijkstra(current_state, expected_state)
-    print(result)
+    time_1 = datetime.datetime.now()
     for elt in final_path:
         display_state(elt)
+    print(result)
+    print(time_1 - time_0)
 
 
 if __name__ == "__main__":
     main()
+
+# suggested method: A* algorithm
+
+
+"""With the limitations of the elevator, the best strategy for moving objects (microchips or generators) is to move 
+2 objects up a floor, then 1 object down a floor. That means moving 10 objects up one floor requires 17 moves. 
+(2 moves per object, minus 3 because the last two objects get moved just once, and you don't need to return 
+to the lower floor.)
+
+My input started with two objects on the second floor, so subtract 4 moves for the work already done. 
+17 + 17 + 17 - 4 = 47, which was the right answer for part 1. Add 24 moves for the 4 additional objects in part 2.
+
+Of course, this all assumes that the limitations on which objects are together never get violated. 
+Once you have all the objects on the same floor, there is at least one way to move them all up in the optimal 17 moves. 
+And in my input, it only took the minimum number of moves to get everything to the second floor, too.
+
+But it seems like there are possible inputs where you need to start with additional moves to get all the objects 
+to the second floor. Did anybody have an input like that?
+
+edit: my input, for reference: The first floor contains a polonium generator, a thulium generator, 
+a thulium-compatible microchip, a promethium generator, a ruthenium generator, a ruthenium-compatible microchip, 
+a cobalt generator, and a cobalt-compatible microchip.
+
+The second floor contains a polonium-compatible microchip and a promethium-compatible microchip.
+
+The third floor contains nothing relevant.
+
+The fourth floor contains nothing relevant."""
