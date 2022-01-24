@@ -135,7 +135,6 @@ def neighbours(state):
                         items_to_move.remove(pair)
         # Given on a certain floor: AG, AM, BG, BM,
         # if both AM and BM are to move up, it is enough to check AM.
-        # TODO: if both (AM, AG) and (BM, BG) are to move up, it is enough to check AM.
         if current_floor_number != new_floor_number:
             # Let us firstly find pairs >> XG, XM << on the floor
             tools = ["G", "M"]
@@ -241,16 +240,6 @@ def dijkstra(initial_state, final_state):
     return costs[final_state], final_path
 
 
-def just_counting(input_data):
-    # not my idea: it does not work for the initial example!.
-    cost = 0
-    moved_up = 0
-    for floor in range(1, 4):
-        moved_up += len(input_data[floor])
-        cost += moved_up * 2 - 3
-    return cost
-
-
 def main():
     data_num = int(sys.argv[1]) if len(sys.argv) > 1 else 1
     input_data_0 = {
@@ -275,17 +264,8 @@ def main():
         4: []
     }
     inputs = [input_data_0, input_data_1, input_data_2, input_data_3]
-    """for input_data in inputs:
-        print(just_counting(input_data))
-    quit()"""
     input_data = inputs[data_num]
     current_state, expected_state = get_data_string(input_data)
-    """for state in equivalent_states(current_state, types(current_state)):
-        display_state(state)
-    quit()"""
-    """for neighbour in neighbours(current_state):
-        display_state(neighbour)
-    quit()"""
     time_0 = datetime.datetime.now()
     result, final_path = dijkstra(current_state, expected_state)
     time_1 = datetime.datetime.now()
@@ -297,31 +277,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# suggested method: A* algorithm
-
-
-"""With the limitations of the elevator, the best strategy for moving objects (microchips or generators) is to move 
-2 objects up a floor, then 1 object down a floor. That means moving 10 objects up one floor requires 17 moves. 
-(2 moves per object, minus 3 because the last two objects get moved just once, and you don't need to return 
-to the lower floor.)
-
-My input started with two objects on the second floor, so subtract 4 moves for the work already done. 
-17 + 17 + 17 - 4 = 47, which was the right answer for part 1. Add 24 moves for the 4 additional objects in part 2.
-
-Of course, this all assumes that the limitations on which objects are together never get violated. 
-Once you have all the objects on the same floor, there is at least one way to move them all up in the optimal 17 moves. 
-And in my input, it only took the minimum number of moves to get everything to the second floor, too.
-
-But it seems like there are possible inputs where you need to start with additional moves to get all the objects 
-to the second floor. Did anybody have an input like that?
-
-edit: my input, for reference: The first floor contains a polonium generator, a thulium generator, 
-a thulium-compatible microchip, a promethium generator, a ruthenium generator, a ruthenium-compatible microchip, 
-a cobalt generator, and a cobalt-compatible microchip.
-
-The second floor contains a polonium-compatible microchip and a promethium-compatible microchip.
-
-The third floor contains nothing relevant.
-
-The fourth floor contains nothing relevant."""
