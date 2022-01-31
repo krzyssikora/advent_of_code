@@ -51,6 +51,7 @@ def bracketing(input_string, opening_char="{", closing_char="}"):
         if pos == -1:
             break
         openings.append(pos)
+    pos = -1
     while True:
         pos = input_string.find(closing_char, pos + 1)
         if pos == -1:
