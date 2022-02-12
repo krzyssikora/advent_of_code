@@ -90,7 +90,6 @@ def main(my_file):
     print("part 2:", len(data))
 
 
-
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         filename = sys.argv[1]
