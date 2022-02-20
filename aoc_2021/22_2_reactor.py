@@ -57,7 +57,7 @@ def arrange_steps(steps):
     which = 0
     for step in steps:
         which += 1
-        print("step:", which, "/", len(steps))
+#        print("step:", which, "/", len(steps))
         if len(arranged_steps) == 0:
             arranged_steps.append(step)
         else:
