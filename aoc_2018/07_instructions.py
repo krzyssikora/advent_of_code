@@ -41,59 +41,11 @@ def get_sequence(sequences, steps, length, sequence=""):
         return new_sequence
 
 
-def get_the_job_done_00(sequences, sequence, workers_number):
-    workers = [0 for _ in range(workers_number)]
-    steps_in_progress = [None for _ in range(workers_number)]
-    time = 0
-    completed = set()
-    while True:
-        idx = 0
-        if len(completed) == len(sequence):
-            break
-        step = sequence[idx]
-        while step in completed:
-            idx += 1
-            if idx >= len(sequence):
-                print("I ran out of the sequence!!!")
-                quit()
-            step = sequence[idx]
-        required = sequences.get(step, set()).difference(completed)
-        if required:
-            # required must finish first
-            pass
-        else:
-            # assign the step to a free worker
-            free_worker = workers.index(0)
-            steps_in_progress[free_worker] = step
-            workers[free_worker] = 61 + ord(step) - ord("A")
-            # pass the time so that at least one worker is free
-            time_elapsed = min(workers)
-            while time_elapsed:
-                workers_done = set(filter(lambda i: workers[i] == time_elapsed, range(workers_number)))
-                workers = [t - time_elapsed for t in workers]
-                time += time_elapsed
-                for worker in workers_done:
-                    completed.add(steps_in_progress[worker])
-                    steps_in_progress[worker] = None
-            idx += 1
-        if idx >= len(sequence):
-            print("finishing off")
-            last_period = max(workers)
-            if last_period:
-                for worker_id in range(workers_number):
-                    if workers[worker_id]:
-                        completed.add(steps_in_progress[worker_id])
-
-
 def get_the_job_done(sequences, steps, workers_number):
     workers = [0 for _ in range(workers_number)]
     steps_in_progress = [None for _ in range(workers_number)]
     completed = set()
     time = 0
-    # cut this
-    # completed = {'A', 'C', 'F', 'B'}
-    # steps = ["D", "E"]
-    # cut this
     while True:
         if len(steps) == 0 and all(worker == 0 for worker in workers):
             break
