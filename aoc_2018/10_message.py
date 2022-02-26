@@ -22,7 +22,7 @@ def find_vertical_min_distance(points, start, stop, jump=1):
         if vertical_distance < minimum:
             minimum = vertical_distance
             idx = i
-    return idx
+    return idx, minimum
 
 
 def display_points(points, step):
@@ -51,8 +51,10 @@ def main(my_file):
     points = get_points(my_file)
     step = 10 ** 8
     for lvl in (8, 4, 2):
-        step = find_vertical_min_distance(points, step - 10 ** lvl, step + 10 ** lvl, 10 ** (lvl // 2))
-    step = find_vertical_min_distance(points, step - 10, step + 10)
+        step, min_d = find_vertical_min_distance(points, step - 10 ** lvl, step + 10 ** lvl, 10 ** (lvl // 2))
+        print(step, min_d)
+    step, min_d = find_vertical_min_distance(points, step - 10, step + 10)
+    print(step, min_d)
     print("part 1:")
     display_points(points, step)
     print("part 2:", step)
