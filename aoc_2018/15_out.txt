@@ -1,0 +1,2515 @@
+#######
+#G..#E#
+#E#E.E#
+#G.##.#
+#...#E#
+#...E.#
+#######
+
+N E W   R O U N D: 1
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        {(3, 2), (1, 2), (4, 1)}
+current range size: 3
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 197
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 3)
+    attack / hit: 3 200
+    range:        {(3, 2), (1, 2), (4, 1)}
+current range size: 3
+MOVE to (1, 3)
+ATTACK
+#######
+#G.E#E#
+#E#..E#
+#G.##.#
+#...#E#
+#...E.#
+#######
+
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 5)
+    attack / hit: 3 200
+    range:        {(3, 2), (1, 2), (4, 1)}
+current range size: 3
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        {(3, 2), (1, 2), (4, 1)}
+current range size: 3
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (5, 4)
+    attack / hit: 3 200
+    range:        {(3, 2), (1, 2), (4, 1)}
+current range size: 3
+MOVE to (5, 3)
+ATTACK
+#######
+#G.E#E#
+#E#..E#
+#G.##.#
+#...#E#
+#..E..#
+#######
+
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 197], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 194], (2, 5): ['E', 3, 200], (3, 1): ['G', 3, 200], (4, 5): ['E', 3, 200], (1, 3): ['E', 3, 200], (5, 3): ['E', 3, 200]}
+N E W   R O U N D: 2
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 197
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 3)
+    attack / hit: 3 200
+    range:        {(3, 2), (1, 2), (4, 1)}
+current range size: 3
+MOVE to (1, 2)
+ATTACK
+#######
+#GE.#E#
+#E#..E#
+#G.##.#
+#...#E#
+#..E..#
+#######
+
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        {(3, 2), (4, 1)}
+current range size: 2
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 191
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 5)
+    attack / hit: 3 200
+    range:        {(3, 2), (4, 1)}
+current range size: 2
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        {(3, 2), (4, 1)}
+current range size: 2
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (5, 3)
+    attack / hit: 3 200
+    range:        {(3, 2), (4, 1)}
+current range size: 2
+MOVE to (4, 3)
+ATTACK
+#######
+#GE.#E#
+#E#..E#
+#G.##.#
+#..E#E#
+#.....#
+#######
+
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 191], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 188], (2, 5): ['E', 3, 200], (3, 1): ['G', 3, 200], (4, 5): ['E', 3, 200], (1, 2): ['E', 3, 200], (4, 3): ['E', 3, 200]}
+N E W   R O U N D: 3
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 191
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 197
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        {(3, 2), (4, 1)}
+current range size: 2
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 188
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 5)
+    attack / hit: 3 200
+    range:        {(3, 2), (4, 1)}
+current range size: 2
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 3)
+    attack / hit: 3 200
+    range:        {(3, 2), (4, 1)}
+current range size: 2
+MOVE to (4, 2)
+ATTACK
+#######
+#GE.#E#
+#E#..E#
+#G.##.#
+#.E.#E#
+#.....#
+#######
+
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        {(3, 2), (4, 1)}
+current range size: 2
+MOVE to (5, 5)
+ATTACK
+#######
+#GE.#E#
+#E#..E#
+#G.##.#
+#.E.#.#
+#....E#
+#######
+
+units left in this round: 0 None
+{(1, 1): ['G', 3, 185], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 185], (2, 5): ['E', 3, 200], (3, 1): ['G', 3, 200], (1, 2): ['E', 3, 197], (4, 2): ['E', 3, 200], (5, 5): ['E', 3, 200]}
+N E W   R O U N D: 4
+units left in this round: 8 None
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 185
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 None
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 194
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 None
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        {(3, 2), (4, 1)}
+current range size: 2
+units left in this round: 5 None
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 185
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 None
+current unit:
+    type:         E
+    position:     (2, 5)
+    attack / hit: 3 200
+    range:        {(3, 2), (4, 1)}
+current range size: 2
+units left in this round: 3 None
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 None
+current unit:
+    type:         E
+    position:     (4, 2)
+    attack / hit: 3 200
+    range:        {(3, 2), (4, 1)}
+current range size: 2
+MOVE to (3, 2)
+ATTACK
+#######
+#GE.#E#
+#E#..E#
+#GE##.#
+#...#.#
+#....E#
+#######
+
+units left in this round: 1 None
+current unit:
+    type:         E
+    position:     (5, 5)
+    attack / hit: 3 200
+    range:        {(4, 1)}
+current range size: 1
+MOVE to (5, 4)
+ATTACK
+#######
+#GE.#E#
+#E#..E#
+#GE##.#
+#...#.#
+#...E.#
+#######
+
+units left in this round: 0 None
+{(1, 1): ['G', 3, 179], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 182], (2, 5): ['E', 3, 200], (3, 1): ['G', 3, 197], (1, 2): ['E', 3, 194], (3, 2): ['E', 3, 200], (5, 4): ['E', 3, 200]}
+N E W   R O U N D: 5
+units left in this round: 8 None
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 179
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 None
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 191
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 None
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        {(4, 1)}
+current range size: 1
+units left in this round: 5 None
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 182
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 None
+current unit:
+    type:         E
+    position:     (2, 5)
+    attack / hit: 3 200
+    range:        {(4, 1)}
+current range size: 1
+units left in this round: 3 None
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 197
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 None
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 None
+current unit:
+    type:         E
+    position:     (5, 4)
+    attack / hit: 3 200
+    range:        {(4, 1)}
+current range size: 1
+MOVE to (5, 3)
+ATTACK
+#######
+#GE.#E#
+#E#..E#
+#GE##.#
+#...#.#
+#..E..#
+#######
+
+units left in this round: 0 None
+{(1, 1): ['G', 3, 173], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 179], (2, 5): ['E', 3, 200], (3, 1): ['G', 3, 194], (1, 2): ['E', 3, 191], (3, 2): ['E', 3, 200], (5, 3): ['E', 3, 200]}
+N E W   R O U N D: 6
+units left in this round: 8 None
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 173
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 None
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 188
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 None
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        {(4, 1)}
+current range size: 1
+units left in this round: 5 None
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 179
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 None
+current unit:
+    type:         E
+    position:     (2, 5)
+    attack / hit: 3 200
+    range:        {(4, 1)}
+current range size: 1
+units left in this round: 3 None
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 194
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 None
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 None
+current unit:
+    type:         E
+    position:     (5, 3)
+    attack / hit: 3 200
+    range:        {(4, 1)}
+current range size: 1
+MOVE to (4, 3)
+ATTACK
+#######
+#GE.#E#
+#E#..E#
+#GE##.#
+#..E#.#
+#.....#
+#######
+
+units left in this round: 0 None
+{(1, 1): ['G', 3, 167], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 176], (2, 5): ['E', 3, 200], (3, 1): ['G', 3, 191], (1, 2): ['E', 3, 188], (3, 2): ['E', 3, 200], (4, 3): ['E', 3, 200]}
+N E W   R O U N D: 7
+units left in this round: 8 None
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 167
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 None
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 185
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 None
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        {(4, 1)}
+current range size: 1
+units left in this round: 5 None
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 176
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 None
+current unit:
+    type:         E
+    position:     (2, 5)
+    attack / hit: 3 200
+    range:        {(4, 1)}
+current range size: 1
+MOVE to (3, 5)
+ATTACK
+#######
+#GE.#E#
+#E#...#
+#GE##E#
+#..E#.#
+#.....#
+#######
+
+units left in this round: 3 None
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 191
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 None
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 None
+current unit:
+    type:         E
+    position:     (4, 3)
+    attack / hit: 3 200
+    range:        {(4, 1)}
+current range size: 1
+MOVE to (4, 2)
+ATTACK
+#######
+#GE.#E#
+#E#...#
+#GE##E#
+#.E.#.#
+#.....#
+#######
+
+units left in this round: 0 None
+{(1, 1): ['G', 3, 161], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 173], (3, 1): ['G', 3, 188], (1, 2): ['E', 3, 185], (3, 2): ['E', 3, 200], (3, 5): ['E', 3, 200], (4, 2): ['E', 3, 200]}
+N E W   R O U N D: 8
+units left in this round: 8 None
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 161
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 None
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 182
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 None
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        {(4, 1)}
+current range size: 1
+units left in this round: 5 None
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 173
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 None
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 188
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 None
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 None
+current unit:
+    type:         E
+    position:     (3, 5)
+    attack / hit: 3 200
+    range:        {(4, 1)}
+current range size: 1
+MOVE to (4, 5)
+ATTACK
+#######
+#GE.#E#
+#E#...#
+#GE##.#
+#.E.#E#
+#.....#
+#######
+
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 2)
+    attack / hit: 3 200
+    range:        {(4, 1)}
+current range size: 1
+MOVE to (4, 1)
+ATTACK
+#######
+#GE.#E#
+#E#...#
+#GE##.#
+#E..#E#
+#.....#
+#######
+
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 155], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 170], (3, 1): ['G', 3, 182], (1, 2): ['E', 3, 182], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 9
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 155
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 179
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 170
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 182
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 149], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 167], (3, 1): ['G', 3, 176], (1, 2): ['E', 3, 179], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 10
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 149
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 176
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 167
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 176
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 143], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 164], (3, 1): ['G', 3, 170], (1, 2): ['E', 3, 176], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 11
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 143
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 173
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 164
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 170
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 137], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 161], (3, 1): ['G', 3, 164], (1, 2): ['E', 3, 173], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 12
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 137
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 170
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 161
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 164
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 131], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 158], (3, 1): ['G', 3, 158], (1, 2): ['E', 3, 170], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 13
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 131
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 167
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 158
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 158
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 125], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 155], (3, 1): ['G', 3, 152], (1, 2): ['E', 3, 167], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 14
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 125
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 164
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 155
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 152
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 119], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 152], (3, 1): ['G', 3, 146], (1, 2): ['E', 3, 164], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 15
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 119
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 161
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 152
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 146
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 113], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 149], (3, 1): ['G', 3, 140], (1, 2): ['E', 3, 161], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 16
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 113
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 158
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 149
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 140
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 107], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 146], (3, 1): ['G', 3, 134], (1, 2): ['E', 3, 158], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 17
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 107
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 155
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 146
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 134
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 101], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 143], (3, 1): ['G', 3, 128], (1, 2): ['E', 3, 155], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 18
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 101
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 152
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 143
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 128
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 95], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 140], (3, 1): ['G', 3, 122], (1, 2): ['E', 3, 152], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 19
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 95
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 149
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 140
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 122
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 89], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 137], (3, 1): ['G', 3, 116], (1, 2): ['E', 3, 149], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 20
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 89
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 146
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 137
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 116
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 83], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 134], (3, 1): ['G', 3, 110], (1, 2): ['E', 3, 146], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 21
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 83
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 143
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 134
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 110
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 77], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 131], (3, 1): ['G', 3, 104], (1, 2): ['E', 3, 143], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 22
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 77
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 140
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 131
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 104
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 71], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 128], (3, 1): ['G', 3, 98], (1, 2): ['E', 3, 140], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 23
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 71
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 137
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 128
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 98
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 65], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 125], (3, 1): ['G', 3, 92], (1, 2): ['E', 3, 137], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 24
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 65
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 134
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 125
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 92
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 59], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 122], (3, 1): ['G', 3, 86], (1, 2): ['E', 3, 134], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 25
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 59
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 131
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 122
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 86
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 53], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 119], (3, 1): ['G', 3, 80], (1, 2): ['E', 3, 131], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 26
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 53
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 128
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 119
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 80
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 47], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 116], (3, 1): ['G', 3, 74], (1, 2): ['E', 3, 128], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 27
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 47
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 125
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 116
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 74
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 41], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 113], (3, 1): ['G', 3, 68], (1, 2): ['E', 3, 125], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 28
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 41
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 122
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 113
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 68
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 35], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 110], (3, 1): ['G', 3, 62], (1, 2): ['E', 3, 122], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 29
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 35
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 119
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 110
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 62
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 29], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 107], (3, 1): ['G', 3, 56], (1, 2): ['E', 3, 119], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 30
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 29
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 116
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 107
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 56
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 23], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 104], (3, 1): ['G', 3, 50], (1, 2): ['E', 3, 116], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 31
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 23
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 113
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 104
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 50
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 17], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 101], (3, 1): ['G', 3, 44], (1, 2): ['E', 3, 113], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 32
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 17
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 110
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 101
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 44
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 11], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 98], (3, 1): ['G', 3, 38], (1, 2): ['E', 3, 110], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 33
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 11
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 107
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 98
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 38
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 1): ['G', 3, 5], (1, 5): ['E', 3, 200], (2, 1): ['E', 3, 95], (3, 1): ['G', 3, 32], (1, 2): ['E', 3, 107], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 34
+units left in this round: 8 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (1, 1)
+    attack / hit: 3 5
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 104
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 95
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 32
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 5): ['E', 3, 200], (2, 1): ['E', 3, 92], (3, 1): ['G', 3, 26], (1, 2): ['E', 3, 104], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 35
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 104
+    range:        set()
+current range size: 0
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 92
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 23
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 5): ['E', 3, 200], (2, 1): ['E', 3, 89], (3, 1): ['G', 3, 17], (1, 2): ['E', 3, 104], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 36
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 104
+    range:        set()
+current range size: 0
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 89
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 14
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 5): ['E', 3, 200], (2, 1): ['E', 3, 86], (3, 1): ['G', 3, 8], (1, 2): ['E', 3, 104], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+N E W   R O U N D: 37
+units left in this round: 7 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 2)
+    attack / hit: 3 104
+    range:        set()
+current range size: 0
+units left in this round: 6 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (1, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 5 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (2, 1)
+    attack / hit: 3 86
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 4 ['E', 3, 200]
+current unit:
+    type:         G
+    position:     (3, 1)
+    attack / hit: 3 5
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 3 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (3, 2)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 2 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 1)
+    attack / hit: 3 200
+    range:        None
+current range size: -1
+ATTACK
+units left in this round: 1 ['E', 3, 200]
+current unit:
+    type:         E
+    position:     (4, 5)
+    attack / hit: 3 200
+    range:        set()
+current range size: 0
+units left in this round: 0 ['E', 3, 200]
+{(1, 5): ['E', 3, 200], (2, 1): ['E', 3, 83], (1, 2): ['E', 3, 104], (3, 2): ['E', 3, 200], (4, 5): ['E', 3, 200], (4, 1): ['E', 3, 200]}
+rounds:     37
+hit points: 987
+outcome:    36519
