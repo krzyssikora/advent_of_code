@@ -4,6 +4,7 @@ import msvcrt as m
 
 cavern_strings = list()
 
+
 def take_char():  # works on windows only
     a = ord(m.getch())
     if a == 224:
@@ -31,22 +32,19 @@ def get_cavern(my_file):
             if char == '.':
                 free_spots.add((row, column))
             elif char == 'E':
-                units[(row, column)] = ['E', 3, 200]  # species, attack power, hit points
                 elves[(row, column)] = [3, 200]  # attack power, hit points
             elif char == 'G':
-                units[(row, column)] = ['G', 3, 200]  # species, attack power, hit points
                 goblins[(row, column)] = [3, 200]  # attack power, hit points
             column += 1
         row += 1
 
-    max_row = max(max(iterab, key=lambda x: x[0])[0] for iterab in [free_spots, units]) + 2
-    max_column = max(max(iterab, key=lambda x: x[1])[1] for iterab in [free_spots, units]) + 2
+    max_row = max(max(iterab, key=lambda x: x[0])[0] for iterab in [free_spots, elves, goblins]) + 2
+    max_column = max(max(iterab, key=lambda x: x[1])[1] for iterab in [free_spots, elves, goblins]) + 2
 
     return free_spots, units, elves, goblins, max_row, max_column
 
 
 def logger(*args):
-    return
     log_output = ''
     for arg in args:
         log_output += str(arg) + ' '
@@ -84,7 +82,7 @@ def display_cavern_2(free_spots: set, units: dict, elves: dict, goblins: dict, r
     print()
 
 
-def display_cavern(free_spots: set, units: dict, elves: dict, goblins: dict, rows, columns, rounds=None):
+def display_cavern(free_spots: set, elves: dict, goblins: dict, rows, columns, rounds=None):
     cavern_string = 'rounds completed: {}'.format(rounds) if rounds is not None else ''
     cavern_string += '\n'
     cavern_string += 'elves:' + str(len(elves)).rjust(5) + ', goblins:' + str(len(goblins)).rjust(5) + '\n'
@@ -94,10 +92,12 @@ def display_cavern(free_spots: set, units: dict, elves: dict, goblins: dict, row
             pos = (row, column)
             if pos in free_spots:
                 cavern_string += "."
-            elif pos in units:
-                info_string += ' {}({}/{}),'.format(units[pos][0], units[pos][2],
-                                                    elves[pos][1] if units[pos][0] == 'E' else goblins[pos][1])
-                cavern_string += units[pos][0]
+            elif pos in elves:
+                info_string += ' E({}),'.format(elves[pos][1])
+                cavern_string += 'E'
+            elif pos in goblins:
+                info_string += ' G({}),'.format(goblins[pos][1])
+                cavern_string += 'G'
             else:
                 cavern_string += '#'
         cavern_string += info_string[:-1] + '\n'
@@ -290,7 +290,7 @@ def make_single_units_turn(free_spots, units, elves, goblins, unit):
         free_spots, units, elves, goblins, targets_range, unit = make_move(free_spots,
                                                                            units, elves, goblins, targets_range, unit)
         logger('range was not None, so move was made:')
-        cavern_strings.append(display_cavern(free_spots, units, elves, goblins, 32, 32))
+        cavern_strings.append(display_cavern(free_spots, elves, goblins, 32, 32))
     if targets_range is None:
         # unit is in target's range, attack
         logger('so it is time for attack for unit {}'.format(unit))
@@ -316,11 +316,11 @@ def battle(free_spots, units, elves, goblins, max_row, max_column):
     global cavern_strings
 
     rounds_count = 0
-    cavern_strings.append(display_cavern(free_spots, units, elves, goblins, max_row, max_column, 0))
+    cavern_strings.append(display_cavern(free_spots, elves, goblins, max_row, max_column, 0))
     while True:
         rounds_count += 1
         free_spots, units, elves, goblins = make_round(free_spots, units, elves, goblins)
-        cavern_strings.append(display_cavern(free_spots, units, elves, goblins, max_row, max_column, rounds_count))
+        cavern_strings.append(display_cavern(free_spots, elves, goblins, max_row, max_column, rounds_count))
         if len(elves) == 0 or len(goblins) == 0:
             print('Combat ends after {} full rounds.'.format(rounds_count))
             total_hit_points = 0
@@ -352,7 +352,7 @@ def show_all(caverns):
 
 def main(my_file):
     free_spots, units, elves, goblins, max_row, max_column = get_cavern(my_file)
-    display_cavern(free_spots, units, elves, goblins, max_row, max_column)
+    print(display_cavern(free_spots, elves, goblins, max_row, max_column))
     battle(free_spots, units, elves, goblins, max_row, max_column)
 
 
@@ -375,3 +375,5 @@ if __name__ == "__main__":
 # Goblins win with 2627 total hit points left.
 # Outcome: 215414
 # answer too high
+
+# most likely the answer is 215168 (246 fewer, i.e. 82 x 3 fewer)
