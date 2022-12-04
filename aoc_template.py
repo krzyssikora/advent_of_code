@@ -1,4 +1,5 @@
 import sys
+import os
 
 
 def get_data_lines(my_file):
@@ -18,5 +19,5 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         filename = sys.argv[1]
     else:
-        filename = "01_input.txt"
+        filename = f'{os.path.basename(__file__)[:2]}_input.txt'
     main(filename)
