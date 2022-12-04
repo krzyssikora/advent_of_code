@@ -5,11 +5,10 @@ import os
 def get_data_lines(my_file):
     with open(my_file) as f:
         lines = f.readlines()
-    return [line.strip() for line in lines]
+    return [line.strip('\n').strip() for line in lines]
 
 
 def get_shared_item(line):
-    line = line.strip('\n')
     length = len(line) // 2
     left = set(line[:length])
     right = set(line[length:])

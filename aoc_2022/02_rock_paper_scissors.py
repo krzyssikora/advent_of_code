@@ -62,7 +62,7 @@ shape_from_result_win = {
 def get_data_lines(my_file):
     with open(my_file) as f:
         lines = f.readlines()
-    return [line.strip() for line in lines]
+    return [line.strip('\n').strip() for line in lines]
 
 
 def get_my_score_1(lines):
@@ -76,7 +76,7 @@ def get_my_score_1(lines):
 def get_my_score_2(lines):
     score = 0
     for line in lines:
-        his, mine = line.strip('\n').split()
+        his, mine = line.split()
         score += result_win[mine] + shape_from_result_win[mine][his]
     return score
 
