@@ -1,5 +1,6 @@
 import sys
 import os
+import re
 
 
 def get_data_lines(my_file):
@@ -9,13 +10,8 @@ def get_data_lines(my_file):
 
 
 def one_range_contains_the_other(line):
-    ranges = line.split(',')
-    sections = list()
-    for r in ranges:
-        start, end = list(map(int, r.split('-')))
-        sections += [start, end]
-
-    a, b, c, d = sections
+    pattern = re.compile(r'(\d+)-(\d+),(\d+)-(\d+)')
+    a, b, c, d = map(int, re.findall(pattern, line)[0])
 
     return (a <= c and b >= d) or (a >= c and b <= d)
 
@@ -39,7 +35,7 @@ def one_range_overlaps_the_other(line):
            (c <= b <= d)
 
 
-def get_number_of_overlaping_pairs(lines):
+def get_number_of_overlapping_pairs(lines):
     return sum([1 if one_range_overlaps_the_other(line) else 0 for line in lines])
 
 
@@ -47,7 +43,7 @@ def main(my_file):
     lines = get_data_lines(my_file)
 
     print("part 1:", get_number_of_pairs_with_one_containing_the_other(lines))
-    print("part 2:", get_number_of_overlaping_pairs(lines))
+    print("part 2:", get_number_of_overlapping_pairs(lines))
 
 
 if __name__ == "__main__":
