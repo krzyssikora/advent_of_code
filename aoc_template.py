@@ -2,13 +2,13 @@ import sys
 import os
 
 
-def get_data_lines(my_file):
+def get_data_lines(my_file: str) -> list:
     with open(my_file) as f:
         lines = f.readlines()
     return [line.strip('\n').strip() for line in lines]
 
 
-def main(my_file):
+def main(my_file: str) -> None:
     lines = get_data_lines(my_file)
 
     print("part 1:", )
