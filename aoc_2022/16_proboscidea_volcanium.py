@@ -79,7 +79,6 @@ def get_highest_pressure_release(valves: dict, start: str, part: int):
     all_releases = dict()
 
     while True:
-        # print(paths.qsize())
         if paths.empty():
             break
         path = paths.get()
@@ -92,11 +91,7 @@ def get_highest_pressure_release(valves: dict, start: str, part: int):
                 neighbours.remove(v)
             if not neighbours:
                 break
-        if not neighbours:
-            all_releases, best_release = update_all_releases_and_best_release(path, path, all_releases, best_release)
         for new_valve in neighbours:
-            if new_valve in path:
-                continue
             new_path = path.copy()
             new_time = new_path[0] + neighbours_dict[new_valve] + 1
             if new_time > max_time:

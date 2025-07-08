@@ -1,23 +1,22 @@
-import sys
-import os
+from pathlib import Path
 
 
-def get_data_lines(my_file: str) -> list:
+def get_data_lines(my_file: Path) -> list:
     with open(my_file) as f:
         lines = f.readlines()
     return [line.strip('\n').strip() for line in lines]
 
 
-def main(my_file: str) -> None:
+def main(my_file: Path, inp: int) -> None:
     lines = get_data_lines(my_file)
 
-    print("part 1:", )
-    print("part 2:", )
+    print(f"input {inp}:", )
 
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        filename = sys.argv[1]
-    else:
-        filename = f'{os.path.basename(__file__)[:2]}_input.txt'
-    main(filename)
+    root = Path(__file__).parent
+    prefix = Path(__file__).name.split("_")[0]
+    for inp, filename in enumerate([f"{prefix}_inp.txt", f"{prefix}_input.txt"], 1):
+        if (root / filename).exists():
+            main(root / filename, inp)
+
