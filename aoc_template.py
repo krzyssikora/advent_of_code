@@ -16,7 +16,6 @@ def main(my_file: Path, inp: int) -> None:
 if __name__ == "__main__":
     root = Path(__file__).parent
     prefix = Path(__file__).name.split("_")[0]
-    for inp, filename in enumerate([f"{prefix}_inp.txt", f"{prefix}_input.txt"], 1):
+    for inpt, filename in enumerate([f"{prefix}_inp.txt", f"{prefix}_input.txt"], 1):
         if (root / filename).exists():
-            main(root / filename, inp)
-
+            main(root / filename, inpt)
