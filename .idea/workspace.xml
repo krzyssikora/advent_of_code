@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f485f82-02f0-4651-9143-875deca79870" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/aoc_2024/05_inp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc_2024/05_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc_2024/05_printing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc_2024/06_guard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc_2024/06_inp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc_2024/06_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc_2024/07_equations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc_2024/07_inp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc_2024/07_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc_2024/08_antennas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc_2024/08_inp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc_2024/08_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aoc_2024/09_checksum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aoc_2024/09_inp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aoc_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/aoc_template.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aoc_2024/08_antennas.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aoc_2024/09_checksum.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
@@ -55,7 +44,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="08_antennas" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="09_checksum" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="advent_of_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,7 +57,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aoc_2024/08_antennas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aoc_2024/09_checksum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +78,9 @@
       <workItem from="1751964411286" duration="21247000" />
       <workItem from="1752047254295" duration="7848000" />
       <workItem from="1752099422299" duration="1994000" />
-      <workItem from="1752144453125" duration="21169000" />
+      <workItem from="1752144453125" duration="21404000" />
+      <workItem from="1752232933104" duration="21006000" />
+      <workItem from="1753048074286" duration="4480000" />
     </task>
     <servers />
   </component>
@@ -109,6 +100,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/advent_of_code$01_location_ids.coverage" NAME="06_guard Coverage Results" MODIFIED="1752018448135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aoc_2024" />
-    <SUITE FILE_PATH="coverage/advent_of_code$06_guard.coverage" NAME="08_antennas Coverage Results" MODIFIED="1752191849532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aoc_2024" />
+    <SUITE FILE_PATH="coverage/advent_of_code$09_checksum.coverage" NAME="09_checksum Coverage Results" MODIFIED="1752274322282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aoc_2024" />
+    <SUITE FILE_PATH="coverage/advent_of_code$06_guard.coverage" NAME="08_antennas Coverage Results" MODIFIED="1752191916287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aoc_2024" />
+    <SUITE FILE_PATH="coverage/advent_of_code$09_checksum__.coverage" NAME="09_checksum Coverage Results" MODIFIED="1753100518314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aoc_2024" />
   </component>
 </project>
