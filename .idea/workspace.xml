@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f485f82-02f0-4651-9143-875deca79870" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/aoc_2024/11_inp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc_2024/11_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc_2024/11_stones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aoc_2024/12_inp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aoc_2024/12_regions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aoc_2024/11_stones.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aoc_2024/12_regions.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
@@ -45,7 +44,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="11_stones" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="12_regions" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="advent_of_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,7 +57,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aoc_2024/11_stones.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aoc_2024/12_regions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +80,7 @@
       <workItem from="1752099422299" duration="1994000" />
       <workItem from="1752144453125" duration="21404000" />
       <workItem from="1752232933104" duration="21006000" />
-      <workItem from="1753048074286" duration="11563000" />
+      <workItem from="1753048074286" duration="15419000" />
     </task>
     <servers />
   </component>
@@ -103,6 +102,6 @@
     <SUITE FILE_PATH="coverage/advent_of_code$01_location_ids.coverage" NAME="06_guard Coverage Results" MODIFIED="1752018448135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aoc_2024" />
     <SUITE FILE_PATH="coverage/advent_of_code$09_checksum.coverage" NAME="09_checksum Coverage Results" MODIFIED="1752274322282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aoc_2024" />
     <SUITE FILE_PATH="coverage/advent_of_code$06_guard.coverage" NAME="08_antennas Coverage Results" MODIFIED="1752191916287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aoc_2024" />
-    <SUITE FILE_PATH="coverage/advent_of_code$09_checksum__.coverage" NAME="11_stones Coverage Results" MODIFIED="1753121496316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aoc_2024" />
+    <SUITE FILE_PATH="coverage/advent_of_code$09_checksum__.coverage" NAME="12_regions Coverage Results" MODIFIED="1753124062618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aoc_2024" />
   </component>
 </project>
