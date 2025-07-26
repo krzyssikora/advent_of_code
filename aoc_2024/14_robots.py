@@ -134,10 +134,10 @@ def main(my_file: Path, inp: int) -> None:
     max_x = 101 if inp == 2 else 11
     max_y = 103 if inp == 2 else 7
     safety_factor = get_safety_factor(robots, max_x, max_y)
+    print(f"input {inp}:", safety_factor)
 
     robots = get_robots(lines)
     part_2(robots, max_x, max_y)
-    print(f"input {inp}:", safety_factor)
 
 
 if __name__ == "__main__":
